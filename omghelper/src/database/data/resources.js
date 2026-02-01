@@ -1,0 +1,111 @@
+ export const resources = [
+  // --- Tướng ---
+  { code: 'tuong', name: 'Tướng', shortName: 'Tướng', unit: 'con', qualityCode: 'do' },
+  { code: 'da_tuong_do', name: 'Đá Tướng Đỏ', shortName: 'Đá T.Đỏ', unit: 'đá', qualityCode: 'do' },
+  { code: 'tien_cap_don', name: 'Tiến Cấp Đơn', shortName: 'TCĐ', unit: 'nl', qualityCode: 'do' },
+  { code: 'dot_pha_don', name: 'Đột Phá Đơn', shortName: 'ĐPĐ', unit: 'nl', qualityCode: 'do' },
+  { code: 'giac_tinh_don', name: 'Giác Tỉnh Đơn', shortName: 'GTĐ', unit: 'nl', qualityCode: 'do' },
+  { code: 'manh_danh_tuong', name: 'Danh Tướng', shortName: 'DT', unit: 'con', qualityCode: 'danh_tuong' },
+  { code: 'tang_kim_don', name: 'Tăng Kim Đơn', shortName: 'NL Kim', unit: 'nl', qualityCode: 'kim' },
+  { code: 'kim_hon_tuong', name: 'Kim Hồn Tướng', shortName: 'Hồn Kim', unit: 'viên', qualityCode: 'kim' },
+  { code: 'am_kim_chan_quyet', name: 'Ám Kim Chân Quyết', shortName: 'NL Ám', unit: 'nl', qualityCode: 'am_kim' },
+  { code: 'long_hon', name: 'Long Hồn', shortName: 'NL Ám', unit: 'viên', qualityCode: 'am_kim' },
+  { code: 'tinh_hoa_tu_kim', name: 'Tinh Hoa Tử Kim', shortName: 'NL Tử', unit: 'nl', qualityCode: 'tu_kim' },
+  { code: 'da_hon_tu_kim', name: 'Đá Hồn Tử Kim', shortName: 'Hồn Tử', unit: 'viên', qualityCode: 'tu_kim' },
+  { code: 'tien_ho_lo', name: 'Tiên Hồ Lô', shortName: 'NL Thái', unit: 'nl', qualityCode: 'thai_kim' },
+  { code: 'long_hon_dien', name: 'Long Hồn Diên', shortName: 'Hồn Thái', unit: 'viên', qualityCode: 'thai_kim' },
+  { code: 'tinh_binh_cam_lo', name: 'Tịnh Bình Cam Lộ', shortName: 'NL Bàn', unit: 'nl', qualityCode: 'ban_kim' },
+  { code: 'luyen_tuy_kim_don', name: 'Luyện Tủy Kim Đơn', shortName: 'Hồn Bàn', unit: 'viên', qualityCode: 'ban_kim' },
+  { code: 'xich_diem_hoa_lien', name: 'Xích Diệm Hỏa Liên', shortName: 'NL Lưu', unit: 'nl', qualityCode: 'luu_kim' },
+  { code: 'dia_mach_long_tinh', name: 'Địa Mạch Long Tinh', shortName: 'Hồn Lưu', unit: 'viên', qualityCode: 'luu_kim' },
+
+  // --- Trang Bị ---
+  { code: 'trang_bi_kim_linh', name: 'Trang Bị Kim Linh', shortName: 'NL Kim', unit: 'nl', qualityCode: 'kim' },
+  { code: 'trang_bi_kim_hon', name: 'Trang Bị Kim Hồn', shortName: 'Hồn Kim', unit: 'viên', qualityCode: 'kim' },
+  { code: 'am_kim_linh', name: 'Ám Kim Linh', shortName: 'NL Ám', unit: 'nl', qualityCode: 'am_kim' },
+  { code: 'trang_bi_am_kim_hon', name: 'Trang Bị Ám Kim Hồn', shortName: 'Hồn Ám', unit: 'viên', qualityCode: 'am_kim' },
+  { code: 'tu_kim_linh', name: 'Tử Kim Linh', shortName: 'NL Tử', unit: 'nl', qualityCode: 'tu_kim' },
+  { code: 'trang_bi_tu_kim_hon', name: 'Trang Bị Tử Kim Hồn', shortName: 'Hồn Tử', unit: 'viên', qualityCode: 'tu_kim' },
+  { code: 'tinh_hoa_thai_kim', name: 'Tinh Hoa Thái Kim', shortName: 'NL Thái', unit: 'nl', qualityCode: 'thai_kim' },
+  { code: 'trang_bi_thai_kim_hon', name: 'Trang Bị Thái Kim Hồn', shortName: 'Hồn Thái', unit: 'viên', qualityCode: 'thai_kim' },
+  { code: 'tinh_hoa_ban_kim', name: 'Tinh Hoa Bàn Kim', shortName: 'NL Bàn', unit: 'nl', qualityCode: 'ban_kim' },
+  { code: 'trang_bi_ban_kim_hon', name: 'Trang Bị Bàn Kim Hồn', shortName: 'Hồn Bàn', unit: 'viên', qualityCode: 'ban_kim' },
+  { code: 'tinh_hoa_luu_kim', name: 'Tinh Hoa Lưu Kim', shortName: 'NL Lưu', unit: 'nl', qualityCode: 'luu_kim' },
+  { code: 'trang_bi_luu_kim_hon', name: 'Trang Bị Lưu Kim Hồn', shortName: 'Hồn Lưu', unit: 'viên', qualityCode: 'luu_kim' },
+
+  // --- Trang Sức ---
+  { code: 'ts_kim_nguyen', name: 'Kim Nguyên', shortName: 'NL Kim', unit: 'nl', qualityCode: 'kim' },
+  { code: 'ts_kim_hon', name: 'Trang Sức Kim Hồn', shortName: 'Hồn Kim', unit: 'viên', qualityCode: 'kim' },
+  { code: 'ts_am_nguyen', name: 'Ám Kim Nguyên', shortName: 'NL Ám', unit: 'nl', qualityCode: 'am_kim' },
+  { code: 'ts_am_hon', name: 'Trang Sức Ám Kim Hồn', shortName: 'Hồn Ám', unit: 'viên', qualityCode: 'am_kim' },
+  { code: 'ts_tu_nguyen', name: 'Tử Kim Nguyên', shortName: 'NL Tử', unit: 'nl', qualityCode: 'tu_kim' },
+  { code: 'ts_tu_hon', name: 'Trang Sức Tử Kim Hồn', shortName: 'Hồn Tử', unit: 'viên', qualityCode: 'tu_kim' },
+  { code: 'ts_thai_nguyen', name: 'Thái Kim Ngọc Loát', shortName: 'NL Thái', unit: 'nl', qualityCode: 'thai_kim' },
+  { code: 'ts_thai_hon', name: 'Phá Kiếp Ấn', shortName: 'Hồn Thái', unit: 'viên', qualityCode: 'thai_kim' },
+  { code: 'ts_ban_nguyen', name: 'Sừng Kỳ Lân', shortName: 'NL Bàn', unit: 'nl', qualityCode: 'ban_kim' },
+  { code: 'ts_ban_hon', name: 'Hổ Phách Linh Thạch', shortName: 'Hồn Bàn', unit: 'viên', qualityCode: 'ban_kim' },
+  { code: 'ts_luu_nguyen', name: 'Xuất Tinh Khấu', shortName: 'NL Lưu', unit: 'nl', qualityCode: 'luu_kim' },
+  { code: 'ts_luu_hon', name: 'Long Huyết Tôi Kim', shortName: 'Hồn Lưu', unit: 'viên', qualityCode: 'luu_kim' },
+
+  // --- Bảo Vật ---
+  { code: 'bv_kim_nl', name: 'Đá Tăng Kim Bảo Vật', shortName: 'NL Kim', unit: 'nl', qualityCode: 'kim' },
+  { code: 'bv_kim_hon', name: 'Bảo Vật Kim Hồn', shortName: 'Hồn Kim', unit: 'viên', qualityCode: 'kim' },
+  { code: 'bv_am_nl', name: 'Ám Kim Bảo Ngọc', shortName: 'NL Ám', unit: 'nl', qualityCode: 'am_kim' },
+  { code: 'bv_am_hon', name: 'Hồn Bảo Vật Ám', shortName: 'Hồn Ám', unit: 'viên', qualityCode: 'am_kim' },
+  { code: 'bv_tu_nl', name: 'Tinh Hoa Bảo Vật Tử Kim', shortName: 'NL Tử', unit: 'nl', qualityCode: 'tu_kim' },
+  { code: 'bv_tu_hon', name: 'Hồn Bảo Vật Tử Kim', shortName: 'Hồn Tử', unit: 'viên', qualityCode: 'tu_kim' },
+  { code: 'bv_thai_nl', name: 'Bảo Ngọc Thái Kim', shortName: 'NL Thái', unit: 'nl', qualityCode: 'thai_kim' },
+  { code: 'bv_thai_hon', name: 'Ngọc Như Ý', shortName: 'Hồn Thái', unit: 'viên', qualityCode: 'thai_kim' },
+  { code: 'bv_ban_nl', name: 'Linh Ngọc Bàn Kim', shortName: 'NL Bàn', unit: 'nl', qualityCode: 'ban_kim' },
+  { code: 'bv_ban_hon', name: 'Ngọc Kỳ Lân', shortName: 'Hồn Bàn', unit: 'viên', qualityCode: 'ban_kim' },
+  { code: 'bv_luu_nl', name: 'Linh Ngọc Lưu Kim', shortName: 'NL Lưu', unit: 'nl', qualityCode: 'luu_kim' },
+  { code: 'bv_luu_hon', name: 'Thanh Khưu Hồn Bội', shortName: 'Hồn Lưu', unit: 'viên', qualityCode: 'luu_kim' },
+
+  // --- Pet ---
+  { code: 'pet_con', name: 'Pet (Con)', shortName: 'Con', unit: 'con', qualityCode: 'hot' },
+  { code: 'pet_sao_don', name: 'Pet Tăng Sao Đơn', shortName: 'NL Tăng Sao', unit: 'nl', qualityCode: 'hot' },
+  { code: 'tinh_nguyen_pet', name: 'Tinh Nguyên Pet', shortName: 'Tinh Nguyên', unit: 'nl', qualityCode: 'hot' },
+  { code: 'pet_kim_don', name: 'Pet Tăng Kim Đơn', shortName: 'NL Kim', unit: 'nl', qualityCode: 'kim' },
+  { code: 'pet_am_linh', name: 'Pet Ám Kim Linh', shortName: 'NL Ám', unit: 'nl', qualityCode: 'am_kim' },
+  { code: 'pet_tu_linh', name: 'Pet Tử Kim Linh', shortName: 'NL Tử', unit: 'nl', qualityCode: 'tu_kim' },
+  { code: 'pet_thai_linh', name: 'Pet Thái Kim Linh', shortName: 'NL Thái', unit: 'nl', qualityCode: 'thai_kim' },
+  { code: 'pet_ban_linh', name: 'Pet Bàn Kim Linh', shortName: 'NL Bàn', unit: 'nl', qualityCode: 'ban_kim' },
+  { code: 'pet_luu_linh', name: 'Pet Lưu Kim Linh', shortName: 'NL Lưu', unit: 'nl', qualityCode: 'luu_kim' },
+
+  // --- Thần Binh ---
+  { code: 'tb_con', name: 'Thần Binh', shortName: 'TBinh', unit: 'TBinh', qualityCode: 'do' },
+  { code: 'da_dp_tb', name: 'Đá Đột Phá Thần Binh', shortName: 'Đá ĐP', unit: 'nl', qualityCode: 'do' },
+  { code: 'tinh_thach_lv1', name: 'Tinh Thạch Lv1', shortName: 'Tinh Thạch', unit: 'nl', qualityCode: 'do' },
+  { code: 'da_am_tb', name: 'Đá Ám Kim Thần Binh', shortName: 'NL Ám', unit: 'nl', qualityCode: 'am_kim' },
+  { code: 'da_tu_tb', name: 'Đá Tử Kim Thần Binh', shortName: 'NL Tử', unit: 'nl', qualityCode: 'tu_kim' },
+  { code: 'cuu_chuyen_tt', name: 'Cửu Chuyển Tinh Thiết', shortName: 'NL Thái', unit: 'nl', qualityCode: 'thai_kim' },
+  { code: 'lo_bat_quai', name: 'Lò Bát Quái', shortName: 'Hồn Thái', unit: 'viên', qualityCode: 'thai_kim' },
+  { code: 'minh_tinh_tl', name: 'Minh Tịnh Tiên Lộ', shortName: 'NL Bàn', unit: 'nl', qualityCode: 'ban_kim' },
+  { code: 'luu_ly_bn', name: 'Lưu Ly Bảo Ngọc', shortName: 'Hồn Bàn', unit: 'viên', qualityCode: 'ban_kim' },
+
+  // --- Cẩm Nang ---
+  { code: 'cam_tu_ngoc', name: 'Cẩm Tú Ngọc', shortName: 'Cẩm Tú Ngọc', unit: 'nl', qualityCode: 'do' },
+  { code: 'tui_cam_nang', name: 'Túi Cẩm Nang', shortName: 'Túi', unit: 'túi', qualityCode: 'do' },
+  { code: 'cn_kim_boi', name: 'Cẩm Nang Tăng Kim Bội', shortName: 'NL Kim', unit: 'nl', qualityCode: 'kim' },
+  { code: 'am_kim_phu', name: 'Ám Kim Phù', shortName: 'NL Ám', unit: 'nl', qualityCode: 'am_kim' },
+  { code: 'am_kim_hon_cn', name: 'Ám Kim Hồn', shortName: 'Hồn Ám', unit: 'viên', qualityCode: 'am_kim' },
+  { code: 'lua_tu_kim', name: 'Lụa Cẩm Nang Tử Kim', shortName: 'NL Tử', unit: 'nl', qualityCode: 'tu_kim' },
+  { code: 'cam_long_ngoc', name: 'Cẩm Long Ngọc Tu', shortName: 'NL Thái', unit: 'nl', qualityCode: 'thai_kim' },
+  { code: 'thien_ti_lăng', name: 'Thiên Ti Lăng', shortName: 'NL Bàn', unit: 'nl', qualityCode: 'ban_kim' },
+
+  // --- Binh Phù ---
+  { code: 'manh_bp_kim', name: 'Mảnh Binh Phù Kim', shortName: 'Mảnh Kim', unit: 'mảnh', qualityCode: 'kim' },
+  { code: 'manh_bp_am', name: 'Mảnh Binh Phù Ám', shortName: 'Mảnh Ám', unit: 'mảnh', qualityCode: 'am_kim' },
+  { code: 'manh_bp_tu', name: 'Mảnh Binh Phù Tử Kim', shortName: 'Mảnh Tử', unit: 'mảnh', qualityCode: 'tu_kim' },
+
+  // --- Binh Thư ---
+  { code: 'manh_bt_kim', name: 'Mảnh Binh Thư Kim', shortName: 'Mảnh Kim', unit: 'mảnh', qualityCode: 'kim' },
+  { code: 'manh_bt_am', name: 'Mảnh Binh Thư Ám', shortName: 'Mảnh Ám', unit: 'mảnh', qualityCode: 'am_kim' },
+  { code: 'manh_bt_tu', name: 'Mảnh Binh Thư Tử Kim', shortName: 'Mảnh Tử', unit: 'mảnh', qualityCode: 'tu_kim' },
+
+  // --- HỒN THẠCH ---
+  { code: 'ht_don', name: 'Hồn Thạch Đơn', shortName: 'HT Đơn', unit: 'nl', qualityCode: 'common' },
+  { code: 'manh_ht_tim', name: 'Mảnh Hồn Thạch Tím', shortName: 'Mảnh Tím', unit: 'mảnh', qualityCode: 'tim' },
+  { code: 'manh_ht_cam', name: 'Mảnh Hồn Thạch Cam', shortName: 'Mảnh Cam', unit: 'mảnh', qualityCode: 'cam' },
+  { code: 'manh_ht_do', name: 'Mảnh Hồn Thạch Đỏ', shortName: 'Mảnh Đỏ', unit: 'mảnh', qualityCode: 'do' },
+];
